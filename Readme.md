@@ -1,4 +1,4 @@
-## Steps to Create this Project
+## Steps to Create Project From scratch (Backend Application)
 
 ### Steps to Start Basic Express TypeScript Server from Scratch
 1. `npm init`
