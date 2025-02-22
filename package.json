@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
   },
   "author": "Nitish Jha",
   "license": "ISC",
@@ -19,8 +20,16 @@
     "pino-pretty": "^13.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.21.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.4",
-    "typescript": "^5.7.3"
+    "@types/pg": "^8.11.11",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
   }
 }
