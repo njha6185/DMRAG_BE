@@ -1,0 +1,22 @@
+{
+  "name": "dmrag_be",
+  "version": "1.0.0",
+  "description": "Document Management and RAG Q&A Backend Application",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nitish Jha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
