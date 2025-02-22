@@ -20,10 +20,17 @@
 5. Open docker desktop
 6. In terminal at project root path execute command (`docker-composem up`)
 
+### Steps to create a Db-client and use db pool for performance improvement
+1. Install pg library using (`npm install pg`) 
+
+### Steps to implement logger
+1. Install pino (`npm install pino`), pino-caller (`npm install pino-caller`) and pino-pretty (`npm run pino-pretty`)
+2. write logger function code and export it.
+3. Now import it and use it based on need
 
 ## To Run this Project Locally
 1. Install Node.js
 2. Run `npm install`
-3. Run `npm run build`
-4. Run `docker-compose up`
-4. Run `npm start`
+3. Run `docker-compose up`
+4. Run `npm run build`
+5. Run `npm start`
